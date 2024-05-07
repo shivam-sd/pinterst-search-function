@@ -1,0 +1,107 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.nav-container{
+    width: 100%;
+    height: 70px;
+    /* border: 2px solid black; */
+    display: flex;
+    align-items: center;
+    padding: 15px;
+}
+.items{
+    width: 300px;
+    height: 40px;
+    /* border: 2px solid black; */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: 10px;
+    padding: 5px;
+}
+#search{
+    width: 700px;
+    height: 40px;
+    border: none;
+    border-radius: 20px;
+    box-shadow: 0.2px 0.2px 1px 2px rgb(131, 129, 129);
+    padding: 20px;
+}
+#search::placeholder{
+    color: rgb(160, 156, 156);
+    font-size: 18px;
+    font-family: 'Times New Roman', Times, serif;
+}
+.items2{
+    width: 300px;
+    /* border: 2px solid black; */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 5px;
+}
+a{
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+    font-weight: 800;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+select{
+    border: none;
+}
+#logo{
+    border-radius: 50%;
+}
+#img{
+    border-radius: 50%;
+}
+.search-data{
+    width: 600px;
+    padding: 10px;
+    border: 1px solid black;
+    background-color: white;
+    border-radius: 10px;
+    position: absolute;
+    left: 400px;
+    top: 57px;
+    display: none;
+}
+.inner-search{
+    border: none;
+    box-shadow: 0.1px 0.1px 1px 1px rgb(163, 161, 161);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: absolute;
+    left:930px;
+    width: 90px;
+    border-radius: 20px;
+    padding: 2px;
+    height: 32px;
+}
+.over-lay{
+    width: 100%;
+    /* border: 2px solid black; */
+    /* height: 100px; */
+    /* opacity: 0.1; */
+    /* position: absolute; */
+    /* display: hidden; */
+}
+.img-container{
+    width: 1300px;
+    height: 200px;
+    display: flex;
+    /* justify-content: space-between; */
+    flex-wrap:wrap;
+    /* border: 2px solid red; */
+    padding-top: 6px;
+    padding-left: 10px;
+
+}
+.box{
+    margin-top: 8px ;
+    margin-left: 10px;
+}
